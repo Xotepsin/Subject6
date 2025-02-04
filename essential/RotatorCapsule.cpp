@@ -30,8 +30,8 @@ void ARotatorCapsule::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-    // ¾×ÅÍ°¡ ·ÎÄÃ ÁÂÇ¥°è¿¡¼­ Yaw ÃàÀ¸·Î ÁöÁ¤ÇÑ ½ºÇÇµå¸¸Å­ È¸Àü
-    FRotator RotationDelta(0.f, RotationSpeed, 0.f);
+    // ì•¡í„°ê°€ ë¡œì»¬ ì¢Œí‘œê³„ì—ì„œ Yaw ì¶•ìœ¼ë¡œ ì§€ì •í•œ ìŠ¤í”¼ë“œë§Œí¼ íšŒì „
+    FRotator RotationDelta(0.f, RotationSpeed * DealtaTime, 0.f);
     AddActorLocalRotation(RotationDelta);
 
 }
