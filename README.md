@@ -186,6 +186,6 @@ void ARotatorCapsule::Tick(float DeltaTime)
 그 후 간단하게 `RotationDelta`를 사용하여 `RotationSpeed`변수에 `DeltaTime`변수를 곱해서 프레임 독립적인 동작을 위해 사용하였습니다.
 ## 시연 영상
 ---
-![](https://velog.velcdn.com/images/xotepsin/post/74841eb5-535c-4e1a-b6c4-f7b2e22ebecb/image.gif)
-![업로드중..](blob:https://velog.io/71dd7369-2332-404f-99c2-0d91fa28b466)
+
+![업로드중..](blob:https://velog.io/84bf9b0d-9c7a-47b3-b053-aab0e7702086)
 
